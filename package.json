@@ -4,7 +4,7 @@
 	"description": "Syntax highlighting support for the Toast programming language.",
 	"version": "0.0.1",
 	"publisher": "proficode",
-	"license": "MIT",
+	"license": "GPL-2.0-only",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/proficode/toast-syntax"
@@ -32,7 +32,8 @@
 	"files": [
 		"extension.js",
 		"language-configuration.json",
-		"syntaxes"
+		"syntaxes",
+		"LICENSE"
 	],
 	"contributes": {
 		"languages": [
