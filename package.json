@@ -1,0 +1,42 @@
+{
+	"name": "toast-syntax",
+	"displayName": "Toast Language",
+	"version": "0.0.1",
+	"publisher": "proficode",
+	"main": "./extension.js",
+	"activationEvents": [
+		"onLanguage:toast"
+	],
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "toast",
+				"aliases": [
+					"toast"
+				],
+				"extensions": [
+					".t"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "toast",
+				"scopeName": "source.toast",
+				"path": "./syntaxes/toast.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1778181684380,
+		"targetPlatform": "undefined",
+		"size": 3225
+	}
+}
