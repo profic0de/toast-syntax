@@ -1,8 +1,18 @@
 {
 	"name": "toast-syntax",
 	"displayName": "Toast Language",
+	"description": "Syntax highlighting support for the Toast programming language.",
 	"version": "0.0.1",
 	"publisher": "proficode",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/proficode/toast-syntax"
+	},
+	"homepage": "https://github.com/proficode/toast-syntax",
+	"bugs": {
+		"url": "https://github.com/proficode/toast-syntax/issues"
+	},
 	"main": "./extension.js",
 	"activationEvents": [
 		"onLanguage:toast"
@@ -13,11 +23,23 @@
 	"categories": [
 		"Programming Languages"
 	],
+	"keywords": [
+		"toast",
+		"language",
+		"syntax",
+		"highlighting"
+	],
+	"files": [
+		"extension.js",
+		"language-configuration.json",
+		"syntaxes"
+	],
 	"contributes": {
 		"languages": [
 			{
 				"id": "toast",
 				"aliases": [
+					"Toast",
 					"toast"
 				],
 				"extensions": [
@@ -33,10 +55,5 @@
 				"path": "./syntaxes/toast.tmLanguage.json"
 			}
 		]
-	},
-	"__metadata": {
-		"installedTimestamp": 1778181684380,
-		"targetPlatform": "undefined",
-		"size": 3225
 	}
 }
