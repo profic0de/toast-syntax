@@ -71,8 +71,12 @@
     "keywords": {
       "patterns": [
         {
+          "name": "keyword.declaration.function.toast",
+          "match": "\\bfunc\\b"
+        },
+        {
           "name": "keyword.control.toast",
-          "match": "\\b(func|import|if|else|return|while|for|break|continue)\\b"
+          "match": "\\b(if|else|return|while|for|break|continue)\\b"
         }
       ]
     },
